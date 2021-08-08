@@ -1,0 +1,43 @@
+print("Que vehiculo va a consultar? carro o moto")
+vehiculo = input().lower()
+
+if vehiculo == "moto":
+    print("Que marca?")
+    marca = input()
+    print("Que modelo?")
+    modelo = input()
+    print("Que cilindraje?")
+    cili = input()
+    print("Que precio?")
+    precio = input()
+    print("Transmicion automatica o manual?")
+    trasmi = input()
+    print("Quiere incluir accesorios?")
+    respuesta = input().lower()
+    if respuesta == "si":
+        print("Casco 1: precio $")
+        print("Casco 1: precio $")
+        print("Casco 1: precio $")
+    print("Usted cotizo un carro y su precio es de $")
+elif vehiculo == "carro":
+    print("Que marca?")
+    marca = input()
+    print("Que modelo?")
+    modelo = input()
+    print("Que cilindraje?")
+    cili = input()
+    print("Que precio?")
+    precio = input()
+    print("Transmicion automatica o manual?")
+    trasmi = input()
+    print("Quiere incluir accesorios?")
+    respuesta = input().lower()
+    if respuesta == "si":
+        print("Cepo: precio $")
+        print("Camara de reversa: precio $")
+    print("Cuantos pasajeros quiere?")
+    pasajeros = input()
+    print("Usted cotizo un carro y su precio es de $")
+else:
+    print("No entiendo tu lenguaje")
+
